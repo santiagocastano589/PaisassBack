@@ -6,7 +6,6 @@ const getTorneos = async (req, res) => {
             id,
             ltrim(rtrim(nombre)) nombre,
             ltrim(rtrim(categoria)) categoria,
-            ltrim(rtrim(modalidad)) modalidad,
             ltrim(rtrim(disciplina)) disciplina,
             fecha_inicio,
             ltrim(rtrim(horario)) horario,
